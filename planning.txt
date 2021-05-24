@@ -1,0 +1,14 @@
+question
+- state: number1, number2
+- getQuestion
+- checkAnswer
+
+player
+state: name, points, won(t/f)
+- addPoints
+
+game
+state: current player, maxPoints, players
+- setNextPlayer
+- getCurrPlayer
+- getScores(players)
