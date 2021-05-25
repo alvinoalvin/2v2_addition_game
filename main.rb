@@ -12,8 +12,9 @@ def getNames()
   return [p1,p2]
 end
 
-# playerNames = getNames();
-# game = Game.new(playerNames[0],playerNames[1])
+playerNames = getNames();
+game = Game.new(playerNames[0],playerNames[1])
+
 game = Game.new("player 1","player 2")
 
 while (game.isWinner() != true)
