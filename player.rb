@@ -1,16 +1,11 @@
-class player()
-  @name;
-  @points;
-  @isWinner;
+class Player
+  attr_reader :name;
+  attr_accessor :points;
 
-  def initialize()
+  def initialize(name)
    @name = name;
    @points = 0;
-   @isWinner = false;
   end
   
-  def addPoints()
-    @points++;
-  end
 end
 
